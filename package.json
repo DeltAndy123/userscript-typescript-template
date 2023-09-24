@@ -1,25 +1,24 @@
 {
   "name": "userscript-typescript-template",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Template repo using Webpack and TypeScript to build your userscript for Tampermonkey and more extensions.",
-  "main": "userscript/index.user.js",
+  "main": "userscripts/index.prod.user.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack/prod.ts",
     "dev": "webpack --config webpack/dev.ts",
     "build:watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pboymt/userscript-typescript-template.git"
+    "url": "git+https://github.com/DeltAndy123/userscript-typescript-template.git"
   },
   "keywords": [],
-  "author": "pboymt",
+  "author": "DeltAndy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pboymt/userscript-typescript-template/issues"
+    "url": "https://github.com/DeltAndy123/userscript-typescript-template/issues"
   },
-  "homepage": "https://github.com/pboymt/userscript-typescript-template#readme",
+  "homepage": "https://github.com/DeltAndy123/userscript-typescript-template#readme",
   "devDependencies": {
     "@types/node": "^18.15.11",
     "@types/prettier": "^2.7.0",
